@@ -29,7 +29,7 @@
 
 var rules = {
   "~*x hello ~*y": [
-    "How do you do. Please state your problem."
+    "Hey buddy."
   ],
   "~*x computer ~*y": [
     "Do computers worry you?",
@@ -41,11 +41,11 @@ var rules = {
     "What do you think machines have to do with your problem?",
   ],
   "~*x name ~*y": [
-    "I am not interested in names",
+    "Your name is not rad",
   ],
   "~*x sorry ~*y": [
     "Please don't apologize",
-    "Apologies are not necessary",
+    "You don't need to do that",
     "What feelings do you have when you apologize",
   ],
   "~*x I remember ~*y": [
@@ -60,7 +60,7 @@ var rules = {
     "Did you think I would forget ~y?",
     "Why do you think I should recall ~y now?",
     "What about ~y?",
-    "You mentioned ~y",
+    "You said ~y",
   ],
   "~*x I want ~*y": [
     "What would it mean if you got ~y?",
@@ -162,7 +162,7 @@ var rules = {
    "~*x are you ~*y": [
     "Why are you interested in whether I am ~y or not?",
     "Would you prefer if I weren't ~y ?",
-    "Perhaps I am ~y in your fantasies.",
+    "Perhaps I am ~yjust tooooooo bored.",
   ],
   "~*x you are ~*y": [
     "What makes you think I am ~y?",
@@ -188,7 +188,7 @@ var rules = {
     "What other feelings do you have?"
   ],
   "~*x I ~*y you ~*z": [
-    "Perhaps in your fantasy we ~y each other",
+    "Perhaps you are just too smart ~y ",
   ],
   "~*x why don't you ~*y": [
     "Should you ~y yourself?",
@@ -228,12 +228,12 @@ var rules = {
 };
 
 var default_responses = [
-  "Very interesting",
+  "Wow!",
   "I am not sure I understand you fully",
-  "What does that suggest to you?",
+  "What do you mean?",
   "Please continue",
-  "Go on",
-  "Do you feel strongly about discussing such things?",
+  "Yo, can you just stop?",
+  "I don't wanna talk about his anymore. I am bored.?",
 ];
 
 function choice(lst) {
