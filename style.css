@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(100,26, 50);
+    background-color: rgb(345,50, 60);
     color: black;
     font-size: 100%;
     line-height: 3.5;
@@ -13,7 +13,7 @@ h1{
 
 h3{
     margin:0px;
-    color: rgb(100, 216, 167);
+    color: rgb(566, 636, 267);
 }
 
 h2{
@@ -25,7 +25,7 @@ h2{
 }
 
 a {
-    color: rgb(50, 118, 63);
+    color: rgb(90, 418, 163);
     text-decoration: none;
 }
 
@@ -74,7 +74,7 @@ img{
 .box { 
     width: 250px;
     margin: 15px;
-    display: inline-block;
+    display: 
     vertical-align: top;   
 }
 .box img{
